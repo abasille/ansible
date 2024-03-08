@@ -1,4 +1,5 @@
 - name: Install a private SSH key
+  hosts: localhost
   vars:
     source_key: ./sample.enc.rsa
     dest_key: ~/.ssh/abasille-sample.rsa
